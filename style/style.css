@@ -31,6 +31,7 @@
      border: 1px solid black;
      border-radius: 5px;
      color: black;
+     cursor: pointer;
   }
   .hero-area-baground{
     width: 100%;
@@ -82,7 +83,7 @@
     border: none;
     outline: none;
     border-radius: 5px;
-
+    cursor: pointer;
  }
 
  /* Main Section First Area */
@@ -159,6 +160,7 @@
 .my-inspiration-area{
     width: 700px;
     margin: 0px auto;
+    padding-bottom: 40px;
 }
 .my-inspiration-area h2{
     padding: 20px 0px;
@@ -170,7 +172,7 @@
     font-weight: 300;
 }
 .second-area iframe{
-    padding: 50px;
+    padding: 20px;
    border: 1px solid #0d132131;
    border-radius: 10px;
 }
@@ -228,4 +230,126 @@
 .third-section-box div a{
      font-size: 15PX;
     font-weight: 800;
+}
+/* Section Four Area Start */
+.section-four-area{
+   width: 1100px;
+   height: 750px;
+   margin: 40px auto;
+
+}
+.section-four-taitel{
+   width: 650px;
+   text-align: center;
+   margin: 50px auto ;
+}
+.section-four-taitel p{
+   font-size: 14px;
+   line-height: 22px;
+   padding: 15px 0px;
+}
+.tecnology-area{
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.153);
+   padding: 20px;
+   border-radius:10px ;
+}
+.technology-description{
+   width: 900px;
+ 
+}
+.technology-description h2{
+   padding-bottom: 10px;
+}
+.technology-description h2{
+   font-size: 20px;
+   font-weight: 800;
+}
+.technology-description p{
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 21px;
+   padding-bottom: 20px;
+}
+.technology-description a{
+   font-size: 14px;
+   font-weight: 700;
+  margin-top: 20px;
+}
+footer{
+   width: 1100px;
+   height: 40vh;
+   margin: 20px auto;
+}
+.footer-content-area{
+
+   height: 300px;
+    background-image: url('../assets/handshake.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.footer-content{
+   width: 600px;
+   text-align: center;
+   color: #ffff;
+}
+.footer-content p{
+   font-size: 13px ;
+   font-weight: 300;
+   padding: 10px;
+}
+.input-area .feedback{
+   margin-top: 25px;
+   width: 370px;
+   height: 45px;
+   padding: 20px;
+   letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+}
+.input-area .feedback::placeholder{
+   font-size: 11px;
+   font-weight: 700;
+}
+.input-area .submit{
+   width: 100px;
+   height: 45px;
+   font-size: 14px;
+   letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer-last-section{
+   width: 1100px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(13, 19, 33, 0.02);
+   margin-top: 60px;
+}
+.footer-last-section div{
+   margin: 40px;
+}
+.footer-last-section div a{
+   text-decoration: none;
+}
+.footer-last-section img{
+   width: 30px;
+   height: 30px;
 }
